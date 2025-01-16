@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Warehouse Picture -->
+    <ImageView
+        android:id="@+id/warehouse"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+
+        android:background="@drawable/warehouse" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@drawable/rectangle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/firstText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Welcome to\n Warehouse Management Application"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/signUp"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F57C00"
+                android:elevation="4dp"
+                android:text="Sign Up" />
+
+            <!-- Sign In Button -->
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#964B00"
+                android:text="Sign In" />
+
+
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

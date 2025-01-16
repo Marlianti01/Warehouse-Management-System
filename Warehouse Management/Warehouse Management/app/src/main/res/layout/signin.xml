@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_com"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Sign In"
+        android:textColor="#F57C00"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/warehouse"
+        android:layout_width="289dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/signin1"
+        android:scaleType="fitCenter"
+        android:contentDescription="Warehouse image" />
+
+    <LinearLayout
+        android:id="@+id/rectangle_1"
+        android:layout_width="314dp"
+        android:layout_height="177dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_reg"
+        android:elevation="4dp"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:drawablePadding="12dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_lock_icon"
+            android:drawablePadding="12dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <TextView
+            android:id="@+id/signUpLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="If you don't have an account, click here"
+            android:textColor="#C76E00" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF7043"
+        android:text="Sign In"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

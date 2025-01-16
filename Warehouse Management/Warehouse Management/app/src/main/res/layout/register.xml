@@ -1,0 +1,104 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/android_com">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="50dp"
+        android:textColor="#F57C00"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:id="@+id/rectangle_1"
+        android:layout_width="316dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_reg"
+        android:elevation="4dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:id="@+id/username"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:id="@+id/nophone"
+            android:hint="Number Phone"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:id="@+id/birthday"
+            android:hint="Birthday"
+            android:inputType="date"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:id="@+id/Email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_input"
+            android:id="@+id/comPass"
+            android:hint="Comfirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Sign Up"
+        android:textSize="20dp"/>
+
+
+
+
+
+</LinearLayout>
